@@ -1,0 +1,15 @@
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other files
+node_modules
+dist
+dll
