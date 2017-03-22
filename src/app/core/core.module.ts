@@ -15,15 +15,6 @@ import { HeaderModule } from './header';
   ]
 })
 export class CoreModule {
-  public static forRoot(): ModuleWithProviders {
-    return {
-      ngModule: CoreModule,
-      providers: [
-
-      ]
-    };
-  }
-
   /**
    * Prevent re-import of the core module by other modules then AppModule
    */
@@ -31,5 +22,14 @@ export class CoreModule {
     if (parentModule) {
       throw new Error('CoreModule is already loaded. Import it in the AppModule only');
     }
+  }
+
+  static forRoot(): ModuleWithProviders {
+    return {
+      ngModule: CoreModule,
+      providers: [
+
+      ]
+    };
   }
 }
