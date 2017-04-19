@@ -1,0 +1,62 @@
+.slide {
+  height: 260px;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cover-book {
+  height: 170px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.bookmark {
+  width: 32px;
+  height: 34px;
+  top: 0;
+  right: 5px;
+  background: url(/assets/img/slider-img/bookmark-img.png) no-repeat;
+  position: absolute;
+  cursor: pointer;
+}
+
+.bookmark:hover {
+  background: url(/assets/img/slider-img/bookmark-img-hover.png) no-repeat;
+}
+
+.btn-play {
+  width: 37px;
+  height: 39px;
+  bottom: 5px;
+  left: 10px;
+  background: url(/assets/img/slider-img/btn-play-img.png) no-repeat;
+  position: absolute;
+  cursor: pointer;
+}
+
+.btn-play:hover {
+  opacity: .9;
+}
+
+.name-book {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.authors-book {
+  color: #aaa;
+}
+
+.slide:hover .name-book,
+.slide:hover .authors-book {
+  text-decoration: underline;
+}
+
+.text-cut {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

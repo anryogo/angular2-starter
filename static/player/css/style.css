@@ -1,0 +1,225 @@
+.player {
+  width: 100%;
+  height: 80px;
+  bottom: 0;
+  position: fixed;
+  background-color: #00243e;
+}
+
+.player-centr-screen,
+.player-time-laps,
+.player-time-laps {
+  position: relative;
+  display: flex;
+}
+
+.player-centr-screen {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+
+.player-cover-book {
+  width: 80px;
+  height: 80px;
+}
+
+.player-btn-control {
+  display: flex;
+  position: relative;
+  top: 25%;
+  margin-left: 4%;
+}
+
+.player-btn-back,
+.player-btn-forward {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  margin-top: 2px;
+  border: none;
+  border-radius: 25px;
+  padding: 0;
+  background-size: 100% 100%;
+}
+
+.player-btn-back {
+  background: url(../../img/icons/player-back.png) no-repeat;
+}
+
+.player-btn-forward {
+  background: url(../../img/icons/player-forward.png) no-repeat;
+}
+
+.player-btn-play {
+  width: 46px;
+  cursor: pointer;
+  height: 46px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 25px;
+  background: url(../../img/slider-img/btn-play-img.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.player-time-laps {
+  width: 520px;
+  height: 80px;
+  margin: 0 10px;
+}
+
+.player-time-track,
+.player-header,
+.player-time-scale,
+.player-author-narrator,
+.player-time-alltrack,
+.player-wish-bookmark {
+  position: absolute;
+}
+
+.player-time-track,
+.player-time-alltrack,
+.player-speed {
+  color: #4c677a;
+  top: 25px;
+}
+
+.player-header {
+  width: 245px;
+  margin: auto;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  top: 10px;
+  right: 0;
+  left: 0;
+}
+
+.player-time-scale {
+  width: 420px;
+  height: 3px;
+  margin: auto;
+  border-radius: 25px;
+  background-color: #a11f65;
+  top: 40px;
+  right: 0;
+  left: 0;
+}
+
+.player-time-track {
+  width: 40px;
+  top: 30px;
+  left: 0;
+}
+
+.player-author-narrator {
+  width: 260px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+}
+
+.player-author {
+  margin-right: 30px;
+}
+
+.player-time-alltrack {
+  width: 40px;
+  top: 30px;
+  right: 0;
+}
+
+.player-sound-speed {
+  margin-top: 30px;
+  width: 150px;
+  height: 20px;
+}
+
+.player-sound {
+  color: #fff;
+  font-size: 16px;
+  top: 4px;
+  cursor: pointer;
+}
+
+.player-speed {
+  margin-left: 30px;
+}
+
+.player-speed-regular {
+  color: #fff;
+  width: 35px;
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.player-speed-regular::after {
+  content: "\e253";
+  font-family: 'Glyphicons Halflings';
+  font-size: 10px;
+  color: #fff;
+  margin-left: 2px;
+}
+
+.player-btn-buy-rent {
+  width: 225px;
+  margin-top: 28px;
+}
+
+.player-btn {
+  width: 100px;
+  background-color: #a31d64;
+  border-radius: 25px;
+  border: 1px solid #a31d64;
+  padding: 2px 0;
+  margin: 0 2px;
+  color: #fff;
+}
+
+.player-btn:hover {
+  background-color: #fff;
+  color: #a31d64;
+}
+
+.player-wish-bookmark {
+  top: -5px;
+  right: 10%;
+  display: flex;
+}
+
+.player-wish {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 20px 10px;
+  position: relative;
+  border-radius: 25px;
+  background: #bfc8cf url(../../img/icons/wishlist-icons.png) no-repeat;
+  background-position: 12px;
+}
+
+.player-wish:hover {
+  background: #bfc8cf url(../../img/icons/wishlist-icons-hover.png) no-repeat;
+  background-position: 12px;
+}
+
+.player-bookmark {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 20px 10px;
+  position: relative;
+  border-radius: 25px;
+  background: #bfc8cf url(../../img/slider-img/bookmark-img.png) no-repeat;
+  background-position: 10px 0;
+}
+
+.player-bookmark:hover {
+  background: #bfc8cf url(../../img/slider-img/bookmark-img-hover.png) no-repeat;
+  background-position: 10px 0;
+}

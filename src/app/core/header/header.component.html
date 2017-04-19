@@ -1,5 +1,69 @@
-<header class="header">
-  <div class="row">
-    <div class="col-lg-2"><img src="assets/img/img-mobile.png" alt="" class="logo-img" width="100" height="90"></div>
+<header class="header" [ngClass]="{'header-fixed': fixed}">
+  <div class="container">
+    <div class="row" *ngIf="!fixed">
+      <div class="col-lg-2">
+        <a routerLink="/home" (click)="scrollTop()">
+          <img src="assets/img/logo.png" class="logo-img" alt="logo" width="100" height="90">
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-offset-6 social">
+        <span class="follow">Follow us:</span>
+        <ul class="social-share">
+          <li *ngFor="let social of socialLinks">
+            <a [href]="social.link"><i class="fa" [ngClass]="social.cssClass"></i></a>
+          </li>
+        </ul>
+        <a href="#" class="lang">English</a>
+      </div>
+    </div>
+
+    <div class="row nav-menu-fix">
+      <div class="col-lg-3">
+        <a routerLink="/home" (click)="scrollTop()">
+          <img src="assets/img/logo-text.png" class="logo-text" alt="logo" width="235" height="55">
+        </a>
+      </div>
+
+      <div class="col-lg-9 header-navbar">
+        <nav class="nav">
+          <ul class="menu">
+            <li>
+              <a routerLink="/home" routerLinkActive="active" (click)="scrollTop()" class="menu-link">Home</a>
+              <ul class="submenu">
+                <li *ngFor="let link of homeLinks">
+                  <a routerLink="/home" [fragment]="link.link">{{link.title}}</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="menu-link">AudioBooks catalog</a>
+              <ul class="submenu">
+                <li *ngFor="let link of catalogLinks">
+                  <a [href]="link.link">{{link.title}}</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <form action="#" class="header-search-book">
+            <span class="glyphicon glyphicon-search" [ngClass]="{'focused': isSearchFocused}"></span>
+            <input class="header-search-field" type="search" placeholder="Search a book" (focus)="toggleFocus()" (blur)="toggleFocus()">
+          </form>
+        </nav>
+
+        <div class="header-sing-in-up" *ngIf="!isSearchFocused">
+          <a routerLink="/login" class="header-sing-in">Sing in</a> / <a routerLink="/sign-up" class="header-sing-up">Sing up</a>
+          <button class="header-wish">
+            <img src="assets/img/icons/wish.png" alt="wishlist" width="20" height="20">
+          </button>
+          <button class="header-cart">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="badge"></span>
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
+<div class="header-mock" *ngIf="fixed"></div>

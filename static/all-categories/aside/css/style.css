@@ -1,0 +1,60 @@
+.all-cat-aside {
+  color: #000;
+  margin-top: 10px;
+}
+
+.all-cat-aside label {
+  color: #000;
+  font-weight: 400;
+  margin: 5px 5px;
+}
+
+.all-cat-aside-select ul {
+  padding: 0;
+}
+
+.all-cat-aside-header {
+  background-color: #e6edef;
+  font-weight: bold;
+  padding: 6px 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.all-cat-aside-open-select::before {
+  content: "\e260";
+  font-family: 'Glyphicons Halflings';
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 15px;
+}
+
+.all-cat-aside-close-select::before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 15px;
+}
+
+.all-cat-aside-show-more {
+  font-size: 12px;
+  margin-left: 7px;
+}
+
+.all-cat-aside-show-more:hover {
+  text-decoration: none;
+}
+
+.all-cat-aside-show-more::before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  margin-right: 5px;
+  font-size: 10px
+}
+
+.counter-books {
+  color: #aaa;
+}

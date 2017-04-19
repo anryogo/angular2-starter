@@ -1,0 +1,16 @@
+.all-cat-tree-link {
+  height: 88px;
+  color: #aaa;
+  position: relative;
+  line-height: 2;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.glyphicon-menu-right {
+  font-size: 10px;
+}
+
+.all-cat-tree-link span {
+  margin: 35px 35px 0 0;
+}

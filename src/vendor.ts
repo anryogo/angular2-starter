@@ -14,6 +14,11 @@ import 'rxjs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'ng2-bootstrap';
 
+// Slider
+import './assets/libs/swiper/swiper.min.css';
+import './assets/libs/swiper/swiper';
+import 'angular2-useful-swiper';
+
 // Fonts
 import 'font-awesome/css/font-awesome.min.css';
 import './assets/fonts/Roboto/css/fonts.css';

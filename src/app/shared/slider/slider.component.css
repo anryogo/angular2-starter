@@ -1,0 +1,8 @@
+.swiper-button {
+  position: static;
+  margin: 65px auto 0;
+}
+
+.swiper-button:hover {
+  opacity: .8;
+}

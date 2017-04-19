@@ -1,0 +1,46 @@
+.how-to-start {
+  height: 435px;
+  font-weight: bold;
+  margin-bottom: 90px;
+}
+
+.bl-start {
+  height: 260px;
+  text-align: center;
+}
+
+.step-content {
+  width: 240px;
+  margin: 110px auto 0;
+  font-size: 15px;
+}
+
+.purple-link {
+  color: #9e1f63;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.start-now {
+  width: 200px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: 40px auto;
+}
+
+.number-1 {
+  background: url(/assets/img/number-1.png) center center no-repeat;
+}
+
+.number-2 {
+  background: url(/assets/img/number-2.png) center center no-repeat;
+}
+
+.number-3 {
+  background: url(/assets/img/number-3.png) center center no-repeat;
+}
+
+.number-3 .step-content {
+  width: 170px;
+}

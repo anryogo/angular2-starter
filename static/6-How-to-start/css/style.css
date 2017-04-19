@@ -1,0 +1,120 @@
+.how-to-start {
+  height: 1300px;
+  font-weight: bold;
+}
+
+.bl-start {
+  height: 260px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.bl-start span {
+  margin-top: 110px;
+  width: 240px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.purple-link {
+  color: #9e1f63;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.start-now {
+  width: 200px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: 17% auto;
+}
+
+.number-1 {
+  background: url(../../img/number-1.png) center center no-repeat;
+}
+
+.number-2 {
+  background: url(../../img/number-2.png) center center no-repeat;
+}
+
+.number-3 {
+  background: url(../../img/number-3.png) center center no-repeat;
+}
+
+.number-3 span {
+  width: 170px;
+}
+
+.diamant-pattern {
+  width: 100%;
+  height: 250px;
+  background: #12222e url(../../img/diamand-pattern.jpg) repeat-x;
+}
+
+.subscribe {
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.sub-head {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 40px 0 10px 0;
+}
+
+.sub-text {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.sub-input {
+  width: 680px;
+  height: 50px;
+  border-radius: 25px;
+  border-style: none;
+  margin: 35px 0 0 85px;
+  padding-left: 30px;
+  color: #aaa;
+}
+
+.btn-subscribe {
+  width: 180px;
+  position: relative;
+  background-color: #9e1f63;
+  top: 1px;
+  right: 90px;
+}
+
+.btn-subscribe:hover {
+  background-color: #711848;
+}
+
+.bl-mobile {
+  height: 510px;
+  width: 780px;
+  margin: 45px auto;
+  display: flex;
+}
+
+.img-mobile {}
+
+.text-mobile {
+  width: 310px;
+  height: 215px;
+  position: relative;
+  top: 210px;
+  left: 130px;
+}
+
+.text-mobile span {
+  font-size: 24px;
+}
+
+.text-mobile p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 70px;
+}

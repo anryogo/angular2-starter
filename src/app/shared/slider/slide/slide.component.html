@@ -1,0 +1,12 @@
+<a href="#" class="slide">
+  <div class="cover-book">
+    <img [src]="book.imageUrl" [alt]="book.title" width="100%" height="100%">
+    <div class="bookmark"></div>
+    <div class="btn-play"></div>
+  </div>
+
+  <span class="name-book">{{book.title}}</span><br>
+  <span class="authors-book">{{book.authors}}</span><br>
+
+  <aj-rating [rate]="book.rate" [readonly]="true"></aj-rating>
+</a>

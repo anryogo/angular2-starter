@@ -1,0 +1,204 @@
+.top-categories {
+  height: 1570px;
+}
+
+.bl-background {
+  width: 100%;
+  height: 935px;
+  background: url(../../img/Diamonds1.jpg) 100% 100%, #e6edef;
+}
+
+.bl-headphones {
+  width: 600px;
+  position: absolute;
+  margin: auto;
+  top: 50px;
+  left: 0;
+  right: 0;
+}
+
+.headphones-content {
+  position: absolute;
+  color: #000;
+  top: 115px;
+  width: 400px;
+  left: 125px;
+}
+
+.headphones-head {
+  text-transform: uppercase;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.headphones-text {
+  width: 200px;
+  display: flex;
+  position: relative;
+  left: 140px;
+  bottom: 36px;
+  line-height: 2;
+  font-size: 16px;
+}
+
+.start-free {
+  width: 185px;
+  position: relative;
+  left: 150px;
+}
+
+.headphones-img {
+  transform: rotate(-12deg);
+}
+
+.bl-categories {
+  height: 635px;
+}
+
+.bl-select-cat {
+  position: relative;
+  bottom: 195px;
+}
+
+.categories {
+  height: 760px;
+  box-shadow: 0 0 8px -4px;
+  position: relative;
+}
+
+.categories a:hover {
+  color: #005a9c;
+}
+
+.heal-fit {
+  height: 220px;
+  background: url(../../img/fitnes.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.tv-film {
+  height: 220px;
+  background: url(../../img/tv-film.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.love-st {
+  height: 480px;
+  background: url(../../img/love-story.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.top-cat {
+  height: 160px;
+  background-color: #005a9c;
+}
+
+.busin-books {
+  height: 480px;
+  background: url(../../img/bussines.jpg) no-repeat;
+  background-size: 100% 100%;
+  float: right;
+}
+
+.for-kids {
+  height: 315px;
+  background: url(../../img/for-kids.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.bl-cat-filter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 1s;
+  z-index: 99;
+}
+
+.bl-cat-filter:hover {
+  background-color: rgba(255, 255, 255, .55);
+  transition: 1s;
+}
+
+.bl-cat-filter a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.heal-fit-text {
+  color: #000;
+  line-height: 6;
+}
+
+.tv-film-text {
+  color: #000;
+  line-height: 6;
+  padding: 0 10px;
+}
+
+.tv-film-text-back {
+  width: 195px;
+  height: 50px;
+  position: absolute;
+  margin: auto;
+  top: 33%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: -9;
+}
+
+.love-st-text {
+  color: #000;
+  line-height: 6;
+}
+
+.top-cat-text {
+  margin-top: 35px;
+  font-size: 36px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.top-cat-text p {
+  font-size: 24px;
+}
+
+.busin-books-text {
+  color: #000;
+  line-height: 4;
+}
+
+.for-kids-text {
+  color: #000;
+  line-height: 10;
+}
+
+.cat-footer {
+  height: 60px;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  line-height: 5;
+  font-size: 12px;
+}
+
+.cat-footer a {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .busin-books {
+    float: none;
+  }
+}

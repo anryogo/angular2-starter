@@ -1,0 +1,46 @@
+.step-prog {
+  height: 60px;
+  padding: 50px 0;
+}
+
+.step-prog-block {
+  text-align: center;
+  color: #005a9c;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.step-prog-block:first-child {
+  text-align: left;
+}
+
+.step-prog-block:last-child {
+  text-align: right;
+}
+
+.step-prog-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: #005a9c;
+  display: inline-block;
+  margin: 10px 20%;
+  position: relative;
+}
+
+.step-prog-line {
+  width: 455px;
+  height: 1px;
+  background-color: #005a9c;
+  position: absolute;
+  right: 18px;
+  top: 5px;
+}
+
+.step-non-active {
+  color: #d4dde9;
+}
+
+.line-non-active {
+  background-color: #bfd6e6;
+}

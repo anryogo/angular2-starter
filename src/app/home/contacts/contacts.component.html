@@ -1,0 +1,92 @@
+<section id="contacts" class="contact-us">
+  <div class="container">
+    <h2 class="section-head col-lg-4">contact us</h2>
+    <div class="row">
+      <div class="col-lg-9">
+
+        <form #contactsForm="ngForm" (ngSubmit)="onSubmit(); contactsForm.reset()" class="contact-form">
+          <div class="contact-form-style">
+            <div class="row">
+              <div class="col-lg-6" dropdown>
+                <button type="button" class="btn btn-default select-cat" dropdownToggle>
+                  {{contacts.category || 'Choose category'}}
+                  <span class="glyphicon glyphicon-menu-down select-icon-down"></span>
+                </button>
+                <ul dropdownMenu>
+                  <li *ngFor="let category of categories">
+                    <a class="dropdown-item" href="#" (click)="selectCategory($event, category)">{{category.title}}</a>
+                  </li>
+                </ul>
+                <input type="hidden" name="category" [(ngModel)]="contacts.category">
+              </div>
+              <div class="col-lg-6 required">
+                <input type="text" class="input-style" placeholder="E-mail address"
+                       name="email" [(ngModel)]="contacts.email"
+                       required [pattern]="rules.email.regexp"
+                       [popover]="errorEmail"
+                       [isOpen]="errors.email.status">
+                <template #errorEmail>{{errors.email.title}}</template>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6 required">
+                <input type="text" class="input-style" placeholder="Name"
+                       name="username" [(ngModel)]="contacts.username"
+                       required
+                       [popover]="errorUsername"
+                       [isOpen]="errors.username.status">
+                <template #errorUsername>{{errors.username.title}}</template>
+              </div>
+              <div class="col-lg-6 required">
+                <input type="text" class="input-style" placeholder="Phone"
+                       name="phone" [(ngModel)]="contacts.phone"
+                       required [pattern]="rules.phone.regexp"
+                       [popover]="errorPhone"
+                       [isOpen]="errors.phone.status">
+                <template #errorPhone>{{errors.phone.title}}</template>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="input-style" placeholder="City"
+                       name="city" [(ngModel)]="contacts.city">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="input-style" placeholder="Country"
+                       name="country" [(ngModel)]="contacts.country">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 required">
+                <textarea class="textarea-style" cols="30" rows="10" placeholder="Message"
+                          name="message" [(ngModel)]="contacts.message"
+                          required
+                          [popover]="errorMessage"
+                          [isOpen]="errors.message.status"></textarea>
+                <template #errorMessage>{{errors.message.title}}</template>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-style btn-style-blue btn-send-mess"
+                  [disabled]="contactsForm.form.invalid">send message</button>
+        </form>
+
+      </div>
+
+      <div class="col-lg-1 col-lg-offset-1">
+        <ul class="contact-icons">
+          <li>
+            <a href="mailto:info@audiojewels.com"><i class="fa fa-envelope-o icon-style"></i></a>
+          </li>
+          <li *ngFor="let social of socialLinks">
+            <a [href]="social.link"><i class="fa icon-style" [ngClass]="social.cssClass"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,118 @@
+.search-books-results {
+  width: 160px;
+  color: #aaa;
+  position: relative;
+  bottom: 10px;
+  margin: auto;
+}
+
+.all-cat-box-list-header, .all-cat-box-list-sort {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.box-list-show-results {
+  padding: 0;
+}
+
+.box-list-navigation {
+  display: flex;
+}
+
+.box-list-navigation li {
+  margin-right: 25px;
+}
+
+.box-list-navigation a {
+  color: #000;
+}
+
+.box-list-navigation-style {
+  color: #005a9c;
+}
+
+.box-list-navigation-style:active {
+  color: #aaa;
+}
+
+.box-list-navigation-activ {
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 25px;
+  background-color: #005a9c;
+}
+
+.box-list-go-to-page {
+  padding: 0;
+}
+
+.box-list-go-to-page span {
+  float: right;
+  display: flex;
+}
+
+.box-list-go-to-page input {
+  width: 10px;
+  height: 20px;
+  margin: 0 2px;
+}
+
+.all-cat-box-list-sort {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  border-top: 1px solid rgba(170, 170, 170, .6);
+  padding-top: 10px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.all-cat-box-list-sort li {
+  margin-right: 20px;
+}
+
+.all-cat-box-list-sort a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.all-cat-box-list-sort a:active {
+  color: #005a9c;
+}
+
+.list-sort-triangle-top::after {
+  content: "\e253";
+  font-family: 'Glyphicons Halflings';
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.list-sort-triangle-bottom::after {
+  content: "\e252";
+  font-family: 'Glyphicons Halflings';
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.all-cat-box-list-sort-view {
+  position: absolute;
+  right: 0;
+  width: 109px;
+}
+
+.all-cat-box-list-sort-view span {
+  margin-left: 9px;
+}
+
+.glyphicon-th-list, .glyphicon-th-large {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.glyphicon-th-list:active {
+  color: #005a9c;
+}
+
+.glyphicon-th-large:active {
+  color: #005a9c;
+}

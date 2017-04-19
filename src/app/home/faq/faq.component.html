@@ -1,0 +1,14 @@
+<section id="faq" class="faq">
+  <h2 class="section-head col-lg-1">faq</h2>
+  <div class="container">
+    <div class="faq-accord col-lg-10 col-lg-offset-1">
+
+      <div *ngFor="let item of data" class="accord-style col-lg-12"
+           [ngClass]="item.opened ? 'accord-visible' : 'accord-hidden'">
+        <h4 (click)="toggleState(item)">{{item.question}}</h4>
+        <p>{{item.answer}}</p>
+      </div>
+
+    </div>
+  </div>
+</section>

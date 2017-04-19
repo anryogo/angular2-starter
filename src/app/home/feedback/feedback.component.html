@@ -1,0 +1,71 @@
+<section id="feedback" class="feed-back">
+  <div class="container">
+    <h2 class="section-head col-lg-4">feedback</h2>
+    <div class="row">
+      <div class="man-in-headphones col-lg-6"></div>
+      <div class="col-lg-6">
+        <h3 class="fb-form-head">Please leave us your review</h3>
+
+        <form #feedbackForm="ngForm" (ngSubmit)="onSubmit(); feedbackForm.reset()" class="feed-back-form">
+          <div class="row">
+            <div class="col-lg-6 required">
+              <input type="text" class="input-style" placeholder="Your name"
+                     name="username" [(ngModel)]="feedback.username"
+                     required
+                     [popover]="errorUsername"
+                     [isOpen]="errors.username.status">
+              <template #errorUsername>{{errors.username.title}}</template>
+            </div>
+            <div class="col-lg-6 required">
+              <input type="text" class="input-style" placeholder="E-mail address"
+                     name="email" [(ngModel)]="feedback.email"
+                     required [pattern]="rules.email.regexp"
+                     [popover]="errorEmail"
+                     [isOpen]="errors.email.status">
+              <template #errorEmail>{{errors.email.title}}</template>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <label>1. Please rate your experience:</label>
+              <aj-rating class="feedback-rate" [rate]="feedback.rate"></aj-rating>
+              <input type="hidden" name="rate" [(ngModel)]="feedback.rate">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <label for="what-looking">2. What were you looking for and couldn't find?</label>
+              <textarea id="what-looking" cols="30" rows="10" class="textarea-style"
+                        placeholder="Please describe your experience"
+                        name="whatLooking" [(ngModel)]="feedback.whatLooking"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <label for="what-liked">3. What have you liked the most?</label>
+              <textarea id="what-liked" cols="30" rows="10" class="textarea-style"
+                        placeholder="Please describe your experience"
+                        name="whatLike" [(ngModel)]="feedback.whatLike"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <label for="what-hate">4. What haven't you liked the most?</label>
+              <textarea id="what-hate" cols="30" rows="10" class="textarea-style"
+                        placeholder="Please describe your experience"
+                        name="whatHate" [(ngModel)]="feedback.whatHate"></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-style btn-style-blue btn-send-feedback"
+                  [disabled]="feedbackForm.form.invalid">send feedback</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,3 +1,276 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif !important;
 }
+
+button {
+  outline: 0;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  font-weight: 500 !important;
+}
+
+/* Sections */
+.section-head {
+  height: 25px;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 32pt;
+  font-weight: bold;
+  margin: auto;
+  position: relative;
+  top: 75px;
+  margin-bottom: 115px;
+  letter-spacing: 7px;
+  text-align: center;
+  float: none;
+  background-color: #a9c4da;
+  line-height: 0;
+}
+
+/* Buttons */
+.btn-style {
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+}
+
+.btn-style:disabled {
+  background-color: #7f7f7f !important;
+}
+
+.btn-style-blue {
+  background-color: #005a9c;
+}
+
+.btn-style-blue:hover {
+  background-color: #003f6d;
+}
+
+.btn-style-light-blue {
+  background-color: #4099ff;
+}
+
+.btn-style-light-blue:hover {
+  background-color: #2479d9;
+}
+
+.btn-style-purple {
+  background-color: #9e1f63;
+}
+
+.btn-style-purple:hover {
+  background-color: #711848;
+}
+
+.btn-style-blank {
+  color: #005a9c;
+  border: 2px solid #005a9c;
+}
+
+.btn-style-blank:hover {
+  color: #fff;
+  background-color: #005a9c;
+}
+
+.btn-tooltip {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #9f2566;
+  color: #9f2566;
+  border-radius: 25px;
+  margin: 0 2px;
+  background-color: #fff;
+}
+
+.btn-tooltip:hover {
+  color: #fff;
+  background-color: #9f2566;
+}
+
+/* Controls */
+.input-style {
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 30px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.textarea-style {
+  padding: 15px 30px 15px 15px;
+  border: 1px solid #ccc;
+  resize: none;
+  border-radius: 4px;
+}
+
+input[type=text].ng-dirty.ng-invalid {
+  border: 1px solid #e21b1b;
+}
+
+input[type=text].ng-dirty.ng-invalid:focus {
+  outline-color: #e21b1b;
+}
+
+.required::after {
+  content: '*';
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e21b1b;
+}
+
+.glyphicon-menu-down {
+  font-size: 8pt;
+  float: right;
+  top: 7px;
+  left: 4px;
+}
+
+/* Style radio button */
+.radio-gender {
+  margin-bottom: 10px;
+}
+
+input[type=radio].css-radio {
+  position: absolute;
+  z-index: -1000;
+  left: -1000px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+input[type=radio].css-radio + label.css-label-radio {
+  padding-left: 20px;
+  height: 15px;
+  display: inline-block;
+  line-height: 15px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: .3s;
+}
+
+input[type=radio].css-radio:checked + label.css-label-radio {
+  background-position: 0 -15px;
+}
+
+label.css-label-radio {
+  background-image: url(/assets/img/cssradio.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Style checkbox button */
+input[type=checkbox].css-checkbox {
+  position: absolute;
+  z-index: -1000;
+  left: -1000px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+  padding-left: 21px;
+  height: 16px;
+  display: inline-block;
+  line-height: 16px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  font-size: 14px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: .3s;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+  background-position: 0 -16px;
+}
+
+label.css-label {
+  background-image: url(/assets/img/csscheckbox.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label.css-label-blue {
+  background-image: url(/assets/img/csscheckbox-blue.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label.css-label-black {
+  background-image: url(/assets/img/csscheckbox-black.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Popover component */
+.popover {
+  color: #e71c1c;
+  border-color: rgba(0, 0, 0, .2);
+  border-radius: 4px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+}
+
+/*
+.popover.left > .arrow {
+  top: 0;
+  right: -9px;
+  margin-top: 0;
+  border-width: 20px 0 20px 9px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.popover.left > .arrow::after {
+  content: none;
+}
+*/

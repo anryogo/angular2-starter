@@ -1,0 +1,8 @@
+.wrapper {
+  min-height: calc(100% - 170px);
+  padding-bottom: 330px;
+}
+
+.wrapper-auth {
+  padding-bottom: 0;
+}

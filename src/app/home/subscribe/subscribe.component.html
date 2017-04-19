@@ -1,0 +1,23 @@
+<section id="subscribe" class="diamant-pattern">
+  <div class="container">
+    <div class="row">
+      <div class="subscribe col-lg-8 col-lg-offset-2">
+        <h3 class="sub-head">Subscribe</h3>
+        <p class="sub-text">Subscribe to our newsletter and stay updated on the latest developments and special offers!</p>
+
+        <form #subscribeForm="ngForm" (ngSubmit)="onSubmit(); subscribeForm.reset()">
+          <input type="text" class="sub-input" placeholder="Enter your email address"
+                 name="email" [(ngModel)]="email"
+                 required [pattern]="rules.email.regexp"
+                 [popover]="errorEmail"
+                 [isOpen]="errors.email.status">
+          <template #errorEmail>{{errors.email.title}}</template>
+
+          <button type="submit" class="btn-style btn-style-purple btn-subscribe"
+                  [disabled]="subscribeForm.form.invalid">subscribe</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>

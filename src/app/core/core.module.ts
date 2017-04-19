@@ -1,17 +1,23 @@
 import { NgModule, ModuleWithProviders, Optional, SkipSelf } from '@angular/core';
 
-/* Application header */
+/* Application header & footer */
 import { HeaderModule } from './header';
+import { FooterModule } from './footer';
+
+/* Application-wide Service Providers */
+import * as ServiceProviders from './services';
 
 @NgModule({
   imports: [
-    HeaderModule
+    HeaderModule,
+    FooterModule
   ],
   declarations: [
 
   ],
   exports: [
-    HeaderModule
+    HeaderModule,
+    FooterModule
   ]
 })
 export class CoreModule {
@@ -28,7 +34,7 @@ export class CoreModule {
     return {
       ngModule: CoreModule,
       providers: [
-
+        ...Object.keys(ServiceProviders).map(key => ServiceProviders[key])
       ]
     };
   }

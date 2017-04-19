@@ -1,0 +1,121 @@
+.sing-in {
+  width: 100%;
+  height: 100%;
+}
+
+.sing-in-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.sing-in-header {
+  width: 100%;
+  height: 800px;
+  background: url(../../img/sing-in-background.jpg) no-repeat;
+  background-size: 115% 115%;
+  background-position: -270px -126px;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+}
+
+.sing-in-block {
+  height: 715px;
+  z-index: 999999;
+  background-color: #fff;
+  position: relative;
+  top: 40px;
+  box-shadow: 0 0 3px 1px rgba(163,163,163, .5);
+}
+
+.sing-in-logo {
+  width: 225px;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+
+.log-with-twitter {
+  margin: 40px 0 20px 0;
+  letter-spacing: 2px;
+  background-color: #4099ff;
+}
+
+.log-with-twitter:hover {
+  background-color: #2479d9;
+}
+
+.log-with-facebook {
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  background-color: #3b5998;
+}
+
+.log-with-facebook:hover {
+  background-color: #25417c;
+}
+
+.or-line-effects {
+  width: 450px;
+  display: flex;
+  position: relative;
+  margin: auto;
+  border-top: 1px solid;
+}
+
+.or-text-effects {
+  width: 60px;
+  height: 40px;
+  background-color: #fff;
+  margin: auto;
+  display: block;
+  text-align: center;
+  bottom: 12px;
+  position: relative;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sing-in-forget-pass {
+  display: inline-block;
+  text-align: right;
+  padding: 0;
+  bottom: 10px;
+}
+
+.btn-log-in {
+  width: 225px;
+  margin: 10px 0 20px 0;
+  background-color: #9e1f63;
+}
+
+.btn-log-in:hover {
+  color: #9e1f63;
+  background-color: #fff;
+  border: 1px solid #9e1f63;
+}
+
+.checkbox-remem-top {
+  top: 15px;
+  left: 32px;
+}
+
+.have-an-acc {
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 25px;
+}
+
+.have-an-acc a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #23527c;
+}

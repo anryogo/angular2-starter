@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-lg-1">
+    <div class="swiper-button swiper-button-prev"></div>
+  </div>
+
+  <div class="col-lg-10">
+    <swiper [config]="config">
+      <div class="swiper-wrapper">
+        <aj-slide *ngFor="let book of books" [book]="book" class="swiper-slide"></aj-slide>
+      </div>
+    </swiper>
+  </div>
+
+  <div class="col-lg-1">
+    <div class="swiper-button swiper-button-next"></div>
+  </div>
+</div>

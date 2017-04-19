@@ -1,0 +1,58 @@
+.faq {
+  background-color: #f8f7f6;
+}
+
+.faq-accord {
+  padding: 30px 0 90px 0;
+  background-color: #f8f7f6;
+}
+
+.accord-style {
+  color: #000;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 3;
+  padding: 0px 35px 0 67px;
+  background-color: #fff;
+  border-color: rgba(204, 204, 204, 0.6);
+  border-style: solid;
+  border-width: 1px 1px 0 1px;
+}
+
+.accord-style:last-child {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.6);
+}
+
+.accord-style p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 2;
+  padding: 0px 35px 0 77px;
+  font-weight: 400;
+}
+
+.accord-hidden {
+  height: 60px;
+  background-color: #f8f7f6;
+}
+
+.accord-hidden::before {
+  content: "\e114";
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+
+.accord-visible {
+  height: 160px;
+}
+
+.accord-visible::before {
+  content: "\e113";
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}

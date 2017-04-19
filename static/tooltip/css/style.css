@@ -1,0 +1,138 @@
+.tooltip {
+  width: 505px;
+  height: 435px;
+  opacity: 1;
+  margin: auto;
+  background: #fff url(../../img/tooltip-background.png) no-repeat;
+  position: relative;
+  text-align: center;
+}
+
+.tooltip label {
+  color: rgba(150, 150, 150, 0.8);
+  padding-right: 5px;
+}
+
+.tooltip-social {
+  color: rgba(150, 150, 150, 0.5);
+  text-align: center;
+  display: flex;
+  width: 230px;
+  margin: auto;
+  top: 30px;
+  position: relative;
+  font-size: 16px;
+}
+
+.tooltip-social-share {
+  display: flex;
+}
+
+.tooltip-social-share li {
+  margin: 0 10px;
+}
+
+.tooltip-social-share i {
+  color: rgba(150, 150, 150, 0.5);
+}
+
+.tooltip-header {
+  width: 340px;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  margin: 26px 0 9px 0;
+  display: inline-block;
+}
+
+.tooltip-by-narrator {
+  width: 380px;
+  margin: auto;
+  margin-bottom: 3px;
+}
+
+.tooltip-by-narrator a {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tooltip-narr-1 {
+  margin-right: 18px;
+  width: 150px;
+  line-height: 10px;
+}
+
+.tooltip-narr-2 {
+  width: 120px;
+  line-height: 10px;
+}
+
+.tooltip-body-text {
+  height: 55px;
+  width: 384px;
+  font-size: 13px;
+  text-align: center;
+  margin: auto;
+}
+
+.tooltip-criteria {
+  width: 230px;
+  margin: 5px auto;
+  display: flex;
+}
+
+.tooltip-criteria-label {
+  width: 115px;
+  margin-right: 5px;
+  text-align: right;
+}
+
+.tooltip-criteria-date {
+  width: 115px;
+  text-align: left;
+  line-height: 1.75;
+}
+
+.tooltip-criteria-date span {
+  display: inline-block;
+}
+
+.publisher-name {
+  width: 100px;
+}
+
+.tooltip-footer {
+  width: 211px;
+  margin: auto;
+}
+
+.tooltip-footer a {
+  color: #9f2566;
+}
+
+.tooltip-footer span:first-of-type {
+  margin: 8px 0 4px 0;
+  display: inline-block;
+}
+
+.tooltip-polygon-img {
+  position: relative;
+  top: 45px;
+  width: 50px;
+  margin: auto;
+}
+
+.tooltip-wishlist {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background: url(../../img/icons/wishlist-icons.png) no-repeat;
+}
+
+.tooltip-wishlist:hover {
+  background: url(../../img/icons/wishlist-icons-hover.png) no-repeat;
+}

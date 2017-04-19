@@ -1,0 +1,39 @@
+.diamant-pattern {
+  width: 100%;
+  height: 250px;
+  background: url(/assets/img/diamand-pattern.jpg) repeat-x;
+}
+
+.subscribe {
+  margin-top: 45px;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-head {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.sub-text {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.sub-input {
+  width: 590px;
+  height: 49px;
+  border-radius: 25px;
+  border-style: none;
+  padding: 0 70px 0 30px;
+  font-size: 16px;
+  color: #12222e;
+  outline: 0;
+}
+
+.btn-subscribe {
+  width: 200px;
+  margin-left: -45px;
+}

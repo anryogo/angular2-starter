@@ -1,0 +1,73 @@
+.what-get {
+	height: 1050px;
+}
+
+.get-bl-area {
+	width: 1025px;
+	height: 875px;
+	margin: auto;
+	background: url(../../img/diamond.png) center 120px, no-repeat;
+	position: relative;
+}
+
+.btn-get-start {
+	width: 200px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 100px;
+}
+
+.get-bl {
+	text-align: center;
+	position: relative;
+}
+
+.get-bl span {
+
+}
+
+.get-bl h3 {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.get-bl p {
+	font-size: 16px;
+}
+
+.know-as {
+	width: 225px;
+	height: 240px;
+	top: 0;
+	margin: auto;
+}
+
+.free-reg {
+	width: 325px;
+	height: 265px;
+	left: 0;
+	bottom: 125px;
+}
+
+.know-and-get {
+	height: 240px;
+	width: 350px;
+	left: 700px;
+	bottom: 385px;
+}
+
+.flexible-mem {
+	width: 325px;
+	height: 205px;
+	left: 85px;
+	bottom: 280px;
+}
+
+.rent-of-pur {
+	width: 355px;
+	height: 215px;
+	left: 595px;
+	bottom: 495px;
+}

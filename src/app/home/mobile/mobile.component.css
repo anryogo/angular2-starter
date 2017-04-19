@@ -1,0 +1,36 @@
+.bl-mobile {
+  height: 510px;
+  width: 780px;
+  margin: 45px auto;
+  display: flex;
+  font-weight: 500;
+}
+
+.text-mobile {
+  width: 310px;
+  height: 215px;
+  position: relative;
+  top: 160px;
+  left: 130px;
+}
+
+.text-mobile h3 {
+  margin-top: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.text-mobile p {
+  font-size: 16px;
+  margin-bottom: 65px;
+}
+
+.text-mobile a:hover {
+  opacity: 0.8;
+}
+
+.purple-link {
+  color: #9e1f63;
+  font-size: 18px;
+  font-weight: bold;
+}

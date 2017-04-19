@@ -1,0 +1,24 @@
+:host {
+  cursor: pointer;
+}
+
+:host /deep/ span[role=slider] {
+  font-size: 18px;
+  color: #aaa;
+  outline: 0;
+}
+
+:host /deep/ .filled {
+  color: #ffbb07;
+}
+
+:host.feedback-rate {
+  float: right;
+  position: relative;
+  top: 10px;
+}
+
+:host.feedback-rate /deep/ span[role=slider] {
+  font-size: 28px;
+  color: #e6e6e6;
+}

@@ -1,0 +1,98 @@
+.book-cover {
+  height: 260px;
+  position: relative;
+}
+
+.book-tooltip {
+  height: 180px;
+  position: relative;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.book-tooltip a {
+  color: #9f2566;
+}
+
+.book-btn-buy {
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.book-btn-rent {
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.tooltip-wishlist {
+  width: 26px;
+  height: 20px;
+  display: block;
+  margin: 20px auto;
+  position: relative;
+  background: url(../../img/icons/wishlist-icons.png) no-repeat;
+}
+
+.tooltip-wishlist:hover {
+  background: url(../../img/icons/wishlist-icons-hover.png) no-repeat;
+}
+
+.book-social-share {
+  width: 260px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  color: rgba(150, 150, 150, 0.7);
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.book-social-share li {
+  margin-left: 24px;
+}
+
+.book-social-share i {
+  color: #000;
+}
+
+.book-text-content label {
+  color: #aaa;
+}
+
+.book-text-content a {
+  color: #005a9c;
+}
+
+.book-header {
+  margin: 0 0 20px 0;
+}
+
+.book-information {
+  display: flex;
+  position: relative;
+  right: 30px;
+  margin: 20px 0;
+}
+
+.book-information-label {
+  width: 11%;
+  text-align: right;
+}
+
+.book-information-text {
+  width: 26%;
+  text-align: left;
+}
+
+.book-information-text span {
+  margin: 0 0 5px 5px;
+  display: inline-block;
+}
+
+.book-rating {
+  height: 105px;
+  margin: 20px 0 45px 0;
+}

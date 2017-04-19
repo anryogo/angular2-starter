@@ -1,0 +1,71 @@
+.all-cat-box-list-result-search {
+  width: 825px;
+}
+
+.view-search-books {
+  display: flex;
+  position: relative;
+}
+
+.cover-block-style {
+  height: 260px;
+  position: relative;
+}
+
+.view-block-style {
+  width: 31%;
+  height: 355px;
+  margin: 0 28px 20px 0;
+  float: left;
+  display: inline-block;
+}
+
+.view-block-style:nth-child(3n) {
+  margin: 0;
+}
+
+.view-search-books-content {
+  width: 500px;
+  position: relative;
+  display: inline-block;
+}
+
+.name-book-block-style {
+  margin-top: 15px;
+  font-size: 15px;
+  width: 160px;
+}
+
+.buy-block-style {
+  margin-top: 15px;
+  font-size: 15px;
+  width: 100px;
+  right: 0;
+  position: absolute;
+  top: 250px;
+  display: flex;
+}
+
+.buy-block-style ul {
+  padding: 0;
+}
+
+.buy-block-style li {
+  margin-bottom: 6px;
+}
+
+.view-search-books-content-wishlist {
+  width: 26px;
+  height: 20px;
+  display: block;
+  margin: auto;
+  background: url(../../../img/icons/wishlist-icons.png) no-repeat;
+}
+
+.view-search-books-content-wishlist:hover {
+  background: url(../../../img/icons/wishlist-icons-hover.png) no-repeat;
+}
+
+.view-search-books-content-buy a {
+  color: #9f2566;
+}

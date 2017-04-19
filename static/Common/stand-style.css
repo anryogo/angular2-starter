@@ -1,0 +1,249 @@
+body {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.btn-style {
+	height: 50px;
+	border-radius: 25px;
+	border-style: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+}
+
+.btn-tooltip {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #9f2566;
+  color: #9f2566;
+  border-radius: 25px;
+  margin: 0 2px;
+  background-color: #fff;
+}
+
+.btn-tooltip:hover {
+  color: #fff;
+  background-color: #9f2566;
+}
+
+.btn-style-blue {
+	background-color: #005a9c;
+}
+
+.btn-style-blue:hover {
+	background-color: #003f6d;
+}
+
+.btn-style-gray {
+	background-color: #7f7f7f;
+}
+
+.btn-style-gray:hover {
+	background-color: #595959;
+}
+
+.section-head {
+	height: 25px;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 32pt;
+	font-weight: bold;
+	margin: auto;
+	position: relative;
+	top: 75px;
+	margin-bottom: 115px;
+	letter-spacing: 7px;
+	text-align: center;
+	float: none;
+	background-color: #a9c4da;
+	line-height: 0;
+}
+
+.input-style {
+	height: 50px;
+	margin-bottom: 20px;
+	padding-right: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.textarea-style {
+	padding: 10px 0 0 10px;
+	border: 1px solid #ccc;
+	resize: none;
+	border-radius: 4px;
+}
+
+label {
+  font-weight: 500 !important;
+}
+
+ul {
+	padding-left: 10px;
+}
+
+li {
+	list-style: none;
+}
+
+.glyphicon-menu-down {
+	font-size: 8pt;
+	float: right;
+	top: 7px;
+	left: 4px;
+}
+
+/*Style radio button*/
+
+.radio-gender {
+  margin-bottom: 10px;
+}
+
+input[type=radio].css-radio {
+  position: absolute;
+  z-index: -1000;
+  left: -1000px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+input[type=radio].css-radio + label.css-label-radio {
+  padding-left: 20px;
+  height: 15px;
+  display: inline-block;
+  line-height: 15px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: .3s;
+}
+
+input[type=radio].css-radio:checked + label.css-label-radio {
+  background-position: 0 -15px;
+}
+
+label.css-label-radio {
+  background-image: url(../img/cssradio.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Style checkbox button*/
+
+input[type=checkbox].css-checkbox {
+  position: absolute;
+  z-index: -1000;
+  left: -1000px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+  padding-left: 21px;
+  height: 16px;
+  display: inline-block;
+  line-height: 16px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  font-size: 14px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: .3s;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+  background-position: 0 -16px;
+}
+
+label.css-label {
+  background-image: url(../img/csscheckbox.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label.css-label-blue {
+  background-image: url(../img/csscheckbox-blue.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label.css-label-black {
+  background-image: url(../img/csscheckbox-black.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Setting books cover*/
+
+.cover-book {
+  height: 170px;
+  position: relative;
+}
+
+.bookmark {
+  width: 32px;
+  height: 34px;
+  top: 0;
+  right: 5px;
+  background: url(../img/slider-img/bookmark-img.png) no-repeat;
+  position: absolute;
+  cursor: pointer;
+}
+
+.bookmark:hover {
+  background: url(../img/slider-img/bookmark-img-hover.png) no-repeat;
+}
+
+.btn-play {
+  width: 37px;
+  height: 39px;
+  bottom: 5px;
+  left: 10px;
+  background: url(../img/slider-img/btn-play-img.png) no-repeat;
+  position: absolute;
+  cursor: pointer;
+}
+
+.name-book {
+  font-size: 18px;
+  color: #000;
+}
+
+.authors-book {
+  color: #aaa;
+}
+
+.text-cut {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

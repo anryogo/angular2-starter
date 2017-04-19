@@ -1,0 +1,88 @@
+.member {
+  min-height: 350px;
+  padding: 50px 0;
+}
+
+.member-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.member-list {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.member-list li {
+  margin-bottom: 22px;
+}
+
+.member-list li::before {
+  content: "\e013";
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  left: 15px;
+  color: #005a9c;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.btn-member {
+  width: 100%;
+  background-color: #9e1f63;
+}
+
+.btn-member:hover {
+  width: 100%;
+  background-color: #a04576;
+}
+
+.member-content {
+  margin-top: 100px;
+}
+
+.diamond-opacity-1 {
+  opacity: .4;
+}
+
+.diamond-opacity-2 {
+  opacity: .6;
+}
+
+.diamond-opacity-3 {
+  opacity: .8;
+}
+
+.member-diamond {
+  height: 150px;
+  text-align: center;
+  line-height: 1;
+  font-size: 22px;
+  color: #fff;
+  background: url(../../img/member-diamand.jpg) no-repeat;
+  background-size: 100% 85%;
+}
+
+.member-diamond span {
+  font-size: 44px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.btn-member-buy {
+  width: 125px;
+  height: 50px;
+  border-radius: 25px;
+  border: 3px solid #005a9c;
+  color: #005a9c;
+  margin-left: 10%;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-member-buy:hover {
+  opacity: .7;
+}

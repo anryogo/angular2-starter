@@ -1,3 +1,7 @@
-<as-header></as-header>
+<aj-header *ngIf="!isAuthPage"></aj-header>
 
-<router-outlet></router-outlet>
+<main class="wrapper" [ngClass]="{'wrapper-auth': isAuthPage}">
+  <router-outlet></router-outlet>
+</main>
+
+<aj-footer *ngIf="!isAuthPage"></aj-footer>

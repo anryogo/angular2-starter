@@ -1,0 +1,145 @@
+.sing-up label {
+  margin-right: 10px;
+  color: #aaa;
+  width: 100%;
+}
+
+.sing-up-logo {
+  width: 235px;
+  height: 140px;
+  margin: 18px auto;
+}
+
+.sing-up-with-twitter {
+  width: 345px;
+  margin: 0 10px 0 12px;
+}
+
+.sing-up-with-facebook {
+  width: 345px;
+  margin: 0 10px 0 37px;
+}
+
+.sing-up-or {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+}
+
+.sing-up-or span {
+  background-color: #fff;
+  padding: 0 20px;
+  top: 12px;
+  position: relative;
+}
+
+.sing-up-or p {
+  border-top: 1px solid #111;
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+
+.step-1,
+.step-2 {
+  color: rgba(212, 221, 233, 0.8);
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.step-1 {
+  top: 140px;
+}
+
+.step-2 {
+  top: 190px;
+}
+
+.step-active {
+  color: #005a9c;
+}
+
+.sing-up-input {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.name-margin {
+  margin-bottom: 0 !important;
+}
+
+.dropdown-menu-style {
+  width: 100%;
+  height: 50px;
+  margin: 8px 54px 0 0;
+}
+
+.sing-up-step-1,
+.sing-up-step-2 {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.checkbox-newsletter {
+  margin: 26px 0;
+}
+
+.sing-up-btn-area {
+  width: 424px;
+  margin: auto;
+  text-align: center;
+}
+
+.sing-up-btn-area label {
+  font-size: 13px;
+}
+
+.btn-sing-up {
+  width: 225px;
+  margin: 10px 0 20px 0;
+}
+
+.sing-up-btn-area span {
+  font-size: 17px;
+}
+
+.sing-up-btn-area a {
+  color: #aaa;
+}
+
+.sing-up-btn-area .login-link {
+  color: #005a9c;
+  font-weight: bold;
+}
+
+.step-2-header {
+  width: 300px;
+  margin: 20px auto;
+  font-size: 19px;
+}
+
+.btn-next-skip {
+  width: 225px;
+  margin: 300px auto 0;
+  text-align: center;
+}
+
+.btn-sing-up-next {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn-sing-up-next .glyphicon {
+  font-size: 12px;
+  top: 0;
+}
+
+.btn-next-skip a {
+  color: #737373;
+  margin-top: 10px;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+  margin-bottom: 10px;
+  padding-left: 30px;
+}

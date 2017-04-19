@@ -1,0 +1,52 @@
+<footer class="footer">
+  <div class="foot-content">
+    <div class="container">
+      <div class="row">
+        <div class="logo-footer col-lg-2">
+          <a routerLink="/home" (click)="scrollTop()">
+            <img src="assets/img/logo-footer.png" alt="logo" width="165" height="35">
+          </a>
+        </div>
+        <div class="ftcol col-lg-2">
+          <ul>
+            <li *ngFor="let link of homeLinks">
+              <a routerLink="/home" [fragment]="link.link">{{link.title}}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ftcol col-lg-2">
+          <ul>
+            <li>CATEGORIES</li>
+            <li *ngFor="let link of catalogLinks; let i = index">
+              <a *ngIf="i <= 6" [href]="link.link">{{link.title}}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ftcol col-lg-2">
+          <ul>
+            <li *ngFor="let link of catalogLinks; let i = index">
+              <a *ngIf="i > 6" [href]="link.link">{{link.title}}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ftcol col-lg-2">
+          <ul>
+            <li>CONTACT</li>
+            <li *ngFor="let link of contactsLinks">
+              <a [href]="link.link">{{link.title}}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ftcol col-lg-2">
+          <ul>
+            <li>MY ACCOUNT</li>
+            <li *ngFor="let link of accountLinks">
+              <a [href]="link.link">{{link.title}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row copyright">Copyright © 2017 Audio Jewels. All rights reserved.</div>
+    </div>
+  </div>
+</footer>

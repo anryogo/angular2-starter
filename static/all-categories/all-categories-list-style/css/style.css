@@ -1,0 +1,97 @@
+/*Setting view-list-style*/
+.all-cat-box-list-result-search {
+  width: 825px;
+}
+
+.name-book-list-style {
+  margin: 0 0 0 30px;
+  font-size: 15px;
+  height: 20px;
+}
+
+.criteria-list-style {
+  width: 200px;
+  margin: 20px 0 0 30px;
+  font-size: 13px;
+  height: 100px;
+  float: left;
+  line-height: 1.7;
+}
+
+.view-search-books-content {
+  position: relative;
+}
+
+.view-search-books-content-raiting {
+  width: 155px;
+  margin: 10px 0 0 30px;
+  text-align: right;
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+}
+
+.view-search-books-content-raiting span {
+  color: #aaa;
+}
+
+.description-list-style {
+  width: 225px;
+  margin: 20px 20px 0 0;
+  font-size: 13px;
+  height: 110px;
+  float: right;
+  line-height: 1.3;
+}
+
+.view-search-books-content-social-share {
+  width: 260px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+  color: rgba(150, 150, 150, 0.7);
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.view-search-books-content-social-share i {
+  color: #000;
+}
+.view-search-books-content-social-share li {
+  margin: 0 18px 0 10px;
+}
+
+.view-list-style {
+  width: 100%;
+  height: 170px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.buy-list-style {
+  width: 100px;
+  right: 0;
+  position: absolute;
+}
+
+.buy-list-style ul {
+  padding: 0;
+}
+
+.buy-list-style li {
+  margin-bottom: 15px;
+}
+
+.buy-list-style a {
+  color: #9f2566;
+}
+
+.view-search-books-content-buy a {
+  color: #9f2566;
+}
+
+.authors-books-list-style {
+  color: #aaa;
+}

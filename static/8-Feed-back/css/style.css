@@ -1,0 +1,49 @@
+.feed-back {
+  height: 1030px;
+}
+
+.feed-back-form {
+  height: 100%;
+}
+
+.man-in-headphones {
+  height: 990px;
+  background: url(../../img/a-man-with-a-beard.jpg) -6px -7px no-repeat;
+  background-size: cover;
+}
+
+.fb-form-head {
+  color: #000;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.feed-back-form input {
+  width: 45%;
+  margin: 0;
+  padding: 10px;
+}
+
+.fb-form-email {
+  position: relative;
+  float: right;
+}
+
+.feed-back-form label {
+  padding: 15px 0 0 0;
+  font-size: 17px;
+  color: #005a9c;
+  font-size: 500;
+}
+
+.feed-back-form textarea {
+  height: 110px;
+}
+
+.btn-send-feedback {
+  width: 230px;
+  margin: 30px auto;
+  display: block;
+  position: relative;
+  bottom: -30px;
+}

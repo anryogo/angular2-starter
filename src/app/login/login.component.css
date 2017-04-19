@@ -1,0 +1,85 @@
+.sing-in {
+  width: 100%;
+  height: 100%;
+  background: url(/assets/img/sing-in-background.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sing-in-block {
+  position: relative;
+  height: 715px;
+  margin: 40px 0;
+  background-color: #fff;
+  box-shadow: 0 0 3px 1px rgba(163,163,163, .5);
+}
+
+.sing-in-logo {
+  width: 225px;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+
+.log-with-twitter {
+  margin: 40px 0 20px 0;
+  letter-spacing: 2px;
+}
+
+.log-with-facebook {
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.or-line-effects {
+  width: 450px;
+  display: flex;
+  position: relative;
+  margin: auto;
+  border-top: 1px solid;
+}
+
+.or-text-effects {
+  width: 60px;
+  height: 40px;
+  background-color: #fff;
+  margin: auto;
+  display: block;
+  text-align: center;
+  bottom: 12px;
+  position: relative;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sing-in-forget-pass {
+  display: inline-block;
+  text-align: right;
+  padding: 0;
+  bottom: 10px;
+}
+
+.btn-log-in {
+  width: 225px;
+  margin: 10px 0 20px 0;
+}
+
+.checkbox-remem-top {
+  top: 15px;
+  left: 32px;
+}
+
+.have-an-acc {
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 25px;
+}
+
+.have-an-acc a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #23527c;
+}

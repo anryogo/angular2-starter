@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 /* App Root */
 import { AppComponent } from './app.component';
-import { PageNotFoundComponent } from './not-found.component';
+import { PageNotFoundComponent } from './not-found';
 
 /* Feature Modules */
 import { CoreModule } from './core';

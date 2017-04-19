@@ -1,0 +1,147 @@
+.header {
+  width: 1170px;
+  height: 170px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.nav {
+  font-size: 13pt;
+  display: flex;
+  position: relative;
+  top: 4px;
+  float: left;
+}
+
+.social {
+  display: flex;
+  position: relative;
+  top: 50px;
+  left: 25px;
+}
+
+.social a {
+  color: #000;
+  text-decoration: none;
+}
+
+.social-share {
+  display: flex;
+  position: relative;
+}
+
+.social-share a {
+  color: #000;
+}
+
+.social-share li {
+  margin: 0 10px;
+}
+
+.follow {
+  color: #aaa;
+}
+
+.lang {
+  margin-left: 10px;
+}
+
+.lang::after {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  font-size: 11px;
+  top: 3px;
+}
+
+.nav-menu-fix {
+  position: relative;
+  top: 10px;
+  background-color: #fff;
+}
+
+.nav-menu-fix a {
+  color: #12222e;
+  position: relative;
+}
+
+.nav-menu-fix a:hover {
+  color: #005a9c;
+  text-decoration: none;
+}
+
+.logo-img {
+  position: relative;
+  top: 13px;
+  left: 70px;
+}
+
+.home {
+  margin-right: 40px;
+}
+
+.home a::after {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  right: 0;
+  position: relative;
+  font-size: 11px;
+}
+
+.abc a::after {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  right: 0;
+  position: relative;
+  font-size: 11px;
+}
+
+.header-search-book {
+  height: 35px;
+  width: 220px;
+  color: #aaa;
+  margin-left: 45px;
+  padding-left: 36px;
+  border-radius: 25px;
+  border: 1px solid rgba(168, 168, 168, 0.45);
+  background: url(../../img/icons/search-icon.png) no-repeat;
+  background-position: 10px 7px;
+  position: relative;
+  bottom: 5px;
+}
+
+.sing-in-up {
+  margin-left: 20px;
+  color: #9e1f63;
+}
+
+.header-sing-in-up {
+  margin-top: 3px;
+  text-align: right;
+}
+
+.header-sing-in-up button {
+  border: none;
+  padding: 0;
+  background-color: #fff;
+  color: #9e1f63;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.header-wish {
+  margin: 0 15px;
+}
+
+.header-cart {
+  margin-left: 10px;
+}
+
+.header-cart::before {
+  content: "\f07a";
+  font: 14px/1 FontAwesome;
+  font-size: 22px;
+  color: #000;
+  top: 3px;
+  position: relative;
+}
