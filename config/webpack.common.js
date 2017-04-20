@@ -83,7 +83,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|ico)$/,
-        use: 'file-loader'
+        use: 'file-loader?name=assets/img/[name].[ext]'
       },
       {
         test: /\.(svg|woff2?|ttf|eot)$/,
