@@ -1,7 +1,7 @@
 .diamant-pattern {
   width: 100%;
   height: 250px;
-  background: url(/assets/img/diamand-pattern.jpg) repeat-x;
+  background: url(assets/img/diamand-pattern.jpg) repeat-x;
 }
 
 .subscribe {

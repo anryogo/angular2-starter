@@ -118,7 +118,8 @@ module.exports = {
     }),
 
     new CopyWebpackPlugin([
-      { from: 'src/assets/img', to: 'assets/img' }
+      { from: 'src/assets/img', to: 'assets/img' },
+      { from: 'src/assets/data/mocks', to: 'assets/data/mocks' }
     ]),
 
     new HtmlWebpackPlugin({

@@ -16,13 +16,13 @@
   height: 34px;
   top: 0;
   right: 5px;
-  background: url(/assets/img/slider-img/bookmark-img.png) no-repeat;
+  background: url(assets/img/slider-img/bookmark-img.png) no-repeat;
   position: absolute;
   cursor: pointer;
 }
 
 .bookmark:hover {
-  background: url(/assets/img/slider-img/bookmark-img-hover.png) no-repeat;
+  background: url(assets/img/slider-img/bookmark-img-hover.png) no-repeat;
 }
 
 .btn-play {
@@ -30,7 +30,7 @@
   height: 39px;
   bottom: 5px;
   left: 10px;
-  background: url(/assets/img/slider-img/btn-play-img.png) no-repeat;
+  background: url(assets/img/slider-img/btn-play-img.png) no-repeat;
   position: absolute;
   cursor: pointer;
 }

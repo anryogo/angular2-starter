@@ -6,7 +6,7 @@
   width: 1025px;
   height: 875px;
   margin: auto;
-  background: url(/assets/img/diamond.png) center 120px, no-repeat;
+  background: url(assets/img/diamond.png) center 120px, no-repeat;
   position: relative;
 }
 

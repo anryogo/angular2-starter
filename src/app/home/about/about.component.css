@@ -34,7 +34,7 @@
 .about-bg-img {
   height: 100%;
   width: 63%;
-  background: #000 url(/assets/img/about-bg-img.jpg) center no-repeat;
+  background: #000 url(assets/img/about-bg-img.jpg) center no-repeat;
   background-size: cover;
   position: relative;
 }
